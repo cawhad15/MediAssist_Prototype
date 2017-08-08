@@ -1,0 +1,45 @@
+body {
+	margin: 0px;
+	padding: 0;
+}
+
+#background_image {
+	background-image: url('../images/c3.jpg');
+	background-color: cover;
+	background-position: center center;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	height: 100vh;
+
+	z-index: -10;
+
+}
+
+#fade_background_image {
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -5;
+}
+
+
+#navigation-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.text-left{
+    float: left;
+    display: inline;
+}
+body{
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+
+

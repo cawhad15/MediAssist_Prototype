@@ -1,0 +1,83 @@
+<!DOCTYPE>
+<html>
+<title>MediAssist Contact Us</title>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/contact_us.css">
+</head>
+
+<body>
+<div id = "background-image">
+<div id = "fade_background_image">
+
+  <nav class="navbar navbar-default" id="contactUS">
+
+    <div class="navigation-bar">
+
+    <div id="navigation-container">
+<!--logo---->
+        <div ng-init="myVar = './images/logo.jpg'" >
+            <img ng-src="{{myVar}}" style="height:70px; width:100px">
+        </div>   
+    <!--MediAssist NAme---->
+         <li> 
+          <h2 class="text-left" style="padding-left:15px;">MediAssist</h2></li>
+      </li>
+             
+    </div>
+
+<br>
+ <h2 class="get_in_touch">Get in touch</h2>
+<div class="col-md-6 col-md-offset-3">
+   
+    <form name="form" role="form">
+        <div>
+            <label for="Name">Full Name:</label>
+            <input type="text" name="FullName" id="FullName" class="form-control" required />
+        </div><p>
+              
+
+         <div class="form-group"> 
+           <label for="email">Email_id:</label> 
+           <input type="email" name="myAddress" ng-model="text" required>   
+        
+            <span ng-show="form.myAddress.$error.email"> Not a valid e-mail address
+            </span>
+           
+        </div> <p>
+
+        <label for="reason">Reason:</label> 
+        <select id="selct_contact_reason" class="selectpicker" data-style="btn-transparent">
+        
+                                                             
+                                                             <option value="MediAssist_User" data-modal="get-modal5">I am MediAssist user with a question</option>
+                                                             <option value="Partnership" data-modal="get-modal5">I am interested in partnership with MediAssist</option>
+                                                             <option value="Press_member" data-modal="get-modal5">I am member of press</option>
+                                                             <option value="work_interest" data-modal="get-modal5">I am interested in working with MediAssist</option>
+                                                            </select>
+
+        
+
+
+
+        <div class="form-group">
+            <label for="Mymessage">Message:</label>
+            <input type="msg_text" name="Mymessage" id="Mymessage" class="form-control" required />
+        </div>
+       
+            
+        
+        <div class="form-actions">
+            <ul class="nav navbar-nav navbar-right">
+             <!-- <a href="#/Select_Doctor"><button type="Request" class="btn btn-ptimary"> Request a Doctor</a>-->
+             <a href="#/Request_doctor" class="btn btn-primary"><i class="fa fa-comment"></i> Send</a>
+              <a href="#/contact_us" class="btn btn-link">Cancel</a>
+            </ul>       
+        </div>
+    </form>
+</div>
+
+
+</div>
+</div>
+</body>
+</html>

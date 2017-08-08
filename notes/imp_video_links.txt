@@ -1,0 +1,28 @@
+Introduction to Angular.js in 50 Examples (part 1)
+https://www.youtube.com/watch?v=TRrL5j3MIvo&t=3243s
+https://github.com/curran/screencasts/tree/gh-pages/introToAngular
+----------------------------------------------------------------------------------
+angular with php and db:
+
+https://www.youtube.com/watch?v=SOZi9CooV_E 
+https://www.youtube.com/watch?v=7RS0_qNgla8
+https://www.youtube.com/watch?v=7_Dy8QMlbZw
+https://www.youtube.com/watch?v=Jz_WY0Aojow
+
+imp:
+https://www.youtube.com/watch?v=SOZi9CooV_E
+https://www.youtube.com/watch?v=lh0XJbetIiE&index=2&list=PLLOIlS9k6DGx9t3LG1E5shOlPYWxmWc2z
+
+prototype video presentation:
+https://youtu.be/hEQwmAmJqu4
+https://www.youtube.com/watch?v=hEQwmAmJqu4&feature=youtu.be
+
+
+
+
+
+
+
+
+
+•	https://www.draw.io/ 

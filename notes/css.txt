@@ -1,0 +1,29 @@
+Header
+how to make corousol: images will slide
+footer
+how to make simple html page using external css3 file.
+
+https://www.youtube.com/watch?v=uF5jiRLRLX8
+
+pager
+doctor on demand
+heal
+routing example for angular js
+
+typescript
+ef6
+react native
+analytics
+
+	http://localhost:8080/#/Request_doctor
+	http://localhost:8080/#/patientDetails
+	
+
+http://localhost:8080/#/signup
+
+http://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/620/offlinehbpl.hbpl.co.uk/news/PGH/iStock_000064413693_Small-20160329014637727.jpg
+https://sleepingshouldbeeasy.com/wp-content/uploads/2012/05/how-to-prepare-your-child-for-a-doctors-visit2.jpg
+http://thebrokeprofessional.com/wp-content/uploads/2016/12/doc-house.jpg
+
+
+Better access to healthcare at comfort of your home

@@ -1,0 +1,6 @@
+imp: https://www.guru99.com/first-webdriver-script.html
+https://stackoverflow.com/questions/25062969/testing-angularjs-with-selenium
+http://qavalidation.com/2015/04/selenium-testing-for-angular-js-sites.html/ 
+
+
+https://seleniumhq.github.io/selenium/docs/api/java/ 

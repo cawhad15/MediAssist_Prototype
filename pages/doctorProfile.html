@@ -1,0 +1,47 @@
+<!DOCTYPE>
+<html>
+<title>Doctor Visit</title>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/doctorProfile.css">
+</head>
+
+<body>
+<div id="fade_background_image">
+<nav class="navbar navbar-default">
+
+  <div class="navigation-bar">
+
+    <div id="navigation-container">
+<!--logo---->
+      <div ng-init="myVar = './images/logo.jpg'" >
+      <img ng-src="{{myVar}}" style="height:70px; width:100px">
+    </div>   
+    <!--MediAssist NAme---->
+     <li> 
+      <h2 class="text-left" style="padding-left:15px;">MediAssist</h2></li>
+      </li>
+           
+    </div>
+   </nav> 
+
+<div class="col-md-6 col-md-offset-3" ng-message="Congratulation">
+    <h1 class="text-center">Congratulation!!!</h1>
+    
+    <form name="form" role="form" >
+    
+    <h2>Your appintment is confirmed. The doctor will visit at your place as per schedule.......</h2>
+
+
+     <div class="form-actions">
+            <ul class="nav navbar-nav navbar-right">
+             <!-- <a href="#/Select_Doctor"><button type="Request" class="btn btn-ptimary"> Request a Doctor</a>-->
+             <a href="#/Request_doctor" class="btn btn-primary"><i class="fa fa-comment"></i> Home</a>
+              
+            </ul>       
+        </div>
+   
+    </form>
+</div>
+</div>
+</body>
+</html>

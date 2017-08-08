@@ -1,0 +1,51 @@
+Angular Js Setup:
+
+1. install git:
+
+	https://git-scm.com/download/win
+	D:\MS_Project\Git
+---------------------------------------------------------------------	
+2. install wampserver 3.0.6
+-----------------------------------------------------------------------
+3. install node js and npm: 
+
+	https://nodejs.org/en/
+	http://blog.teamtreehouse.com/install-node-js-npm-windows 
+	D:\MS_Project\nodejs 
+	
+	commands:
+	C:\>d:
+
+		d:\>cd MS_Project\nodejs
+
+		d:\MS_Project\nodejs>node -v
+		v6.10.0
+
+		d:\MS_Project\nodejs>node --version
+		v6.10.0
+
+		d:\MS_Project\nodejs>npm -v
+		3.10.10
+------------------------------------------------------------------------------------		
+4. install bower:
+  bower is installed in c drive: 
+  https://josemmsimo.wordpress.com/2016/06/20/installing-bower-on-windows-10/ 
+ npm install -g bower 
+ 
+		d:\MS_Project\nodejs>npm install -g bower
+		C:\Users\suraj\AppData\Roaming\npm\bower -> C:\Users\suraj\AppData\Roaming\npm\node_modules\bower\bin\bower
+		C:\Users\suraj\AppData\Roaming\npm
+		`-- bower@1.8.0
+-----------------------------------------------
+5. install bower through angular js
+https://josemmsimo.wordpress.com/2016/06/20/installing-bower-on-windows-10/ 
+
+https://thinkster.io/egghead/intro-to-bower 
+--------------------------
+Apache tomcat 8:
+C:\Program Files\Java\jre1.8.0_121 
+D:\MS_Project\Apache8\
+https://www.youtube.com/watch?v=kLgquZ2FiuQ 
+configuration path:
+/Servers/Tomcat v8.5 Server at localhost-config 
+

@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+<title>MediAssist Patient Details</title>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/Patient_Details.css">
+
+</head>
+
+<body>
+
+<div id = "fade_background_image">
+
+<nav class="navbar navbar-default">
+
+  <div class="navigation-bar">
+
+    <div id="navigation-container">
+<!--logo---->
+      <div ng-init="myVar = './images/logo.jpg'" >
+      <img ng-src="{{myVar}}" style="height:70px; width:100px">
+    </div>   
+    <!--MediAssist NAme---->
+     <li> 
+      <h2 class="text-left" style="padding-left:15px;">MediAssist</h2></li>
+      </li>
+           
+    </div>
+   </nav> 
+
+<div class="col-md-6 col-md-offset-3">
+      <h2 class="text-center">Patient Details</h2>
+      
+      <form name="form" role="form" >
+      <div>
+            <label for="patient_name">Patient Name:</label>
+            <input type ="text" name="patientName" id="patientName" class="form-control" required /><p>
+      </div>
+      
+      <div class="form-patient">
+      <label for="patient_name">Address:</label>
+      <input type="text" name="patient_Name" id="Text1" class="form-control" required  /><p>
+      </div>
+      
+      <div class="form-patient">
+      <label for="patient_name">Insurance:</label>
+      <!----     
+      <select name="Patient_name"  ng-model="selectInsurance" ng-options="x for x in name">
+      <option value="">------------</option>
+      </select>
+    ---->
+    <select name="selectInsurance" class="selectpicker" data-style="btn-transparent">
+                               <option value="Cingna" data-modal="get-modal5">Cigna</option>
+                               <option value="WellCare" data-modal="get-modal5">WellCare</option>
+                               <option value="UnitedHealthCare" data-modal="get-modal5">UnitedHealthCare</option>
+                               <option value="Aetna" data-modal="get-modal5">Aetna</option>
+                               <option value="Humana" data-modal="get-modal5">Humana</option>
+                               <option value="Pick Your Insurance" data-modal="get-modal2">Pick Your Insurance</option>
+                            </select>
+      
+      <!-- <input type="radio" ng-model="selectInsurance" value="company1">Cingna
+
+      <input type="radio" ng-model="selectInsurance" value="company2">WellCare
+
+      <input type="radio" ng-model="selectInsurance" value="company3">UnitedHealthCare
+
+      <input type="radio" ng-model="selectInsurance" value="company4"> Aetna
+
+      <input type="radio" ng-model="selectInsurance" value="company5">Humana <p> -->
+
+
+      </div>
+      
+      <!-- -Checkbox -->
+      <div class="form-patient">
+      <label for = "patient_name">Concern:</label>
+            <!-- -<input type = "checkbox" ng-checked="all">Sick
+      <input type = "checkbox" ng-checked="all">Injury
+      <input type = "checkbox" ng-checked="all">Flu-Shot
+      <input type= "checkbox" ng-checked = "all">Other
+      <input type="text" id="Text1" class="form-control">
+      <span ng-repeat="(concern,enabled ) in concerns">
+            <input type = "checkbox" ng-model="concern[concern]" /></span>-->
+            
+            <label>Sick: <input type="checkbox" ng-model="checkboxModel.Sick"></label>
+
+            <label>Injury: <input type="checkbox" ng-model="checkboxModel.Injury"></label>
+
+            <label>Flu_Shot: <input type="checkbox" ng-model="checkboxModel.Flu_Shot"></label>
+            
+            <label>Other: <input type="checkbox" ng-model="checkboxModel.Other"></label>
+            <input type="text" id="Text1" class="form-control"><p>
+            
+            
+      
+      </div>
+      
+      <!-- Date -->
+      <!-- <div class="form-patient" >
+      <label for="patient_name">Date</label>
+      <input type="date" name="patient_Name" id="dateinput" class="form-control" placeholder = "yyyy/MM/dd" min="2016-01-01" max="2090-01-01" required  />
+      <div role="alert">
+            <span class="error" ng-show="myForm.input.$error.required">
+            Required!</span>
+            <span class="error" ng-show="myForm.input.$error.date">Not a valid date!</span>
+      </div>
+
+       -->
+      <!--- <div class="forn-patient">
+       <label for="patient_name">Date</label>
+       <input type =="Date1 | Date:'mediumDate'">
+       </div><p>-->
+
+       <div ng-app>
+    <p>
+        <label>Date</label>
+       <input type="date" id="date" ng-model="datevalue"/>
+    </p>
+
+   <!-- <p> {{ datevalue | date : 'mediumDate'}} </p>---->
+    </div>
+    
+      <!-- time -->
+      <div class="form-patient">
+      <label for="patient_name">Time</label>
+      <input type="time" name="patient_Name" id="Text1" class="form-control" required  /><p>
+      </div>
+      
+      
+      
+      <!-- -for request a doctor button -->
+      
+            <div class="form-submit">
+                  <!-- <a href="#/select_doctor" class="btn btn-primary"><button type="Request">Request a Doctor</button> -->
+                  <ul class="nav navbar-nav navbar-right">
+                   <!-- <a href="#/Select_Doctor"><button type="Request" class="btn btn-ptimary"> Request a Doctor</a>-->
+                   <a href="#/selectDoctor" class="btn btn-primary"><i class="fa fa-comment"></i> Request a Doctor</a>
+                  </ul>
+                  
+            </div>
+      
+      </form>
+
+
+</div>
+</body>
+</html>

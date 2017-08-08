@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<title>MediAssist Select Doctor</title>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/Select_Doctor.css">
+</head>
+
+
+
+<body>
+
+
+
+<div id = "fade_background_image">
+
+	<nav class="navbar navbar-default">
+
+	<div class="navigation-bar">
+
+    <div id="navigation-container">
+<!--logo---->
+	    <div ng-init="myVar = './images/logo.jpg'" >
+			<img ng-src="{{myVar}}" style="height:70px; width:100px">
+		</div>   
+    <!--MediAssist NAme---->
+		 <li> 
+		  <h2 class="text-left" style="padding-left:15px;">MediAssist</h2></li>
+      </li>
+	         
+    </div>
+   </nav> 
+
+<div class="col-md-6 col-md-offset-3"> 
+    
+    <h2 class="text-center">Select Doctor</h2>
+
+    <form name="form" ng-submit="vm.login()" role="form"> 
+        <table class="table table-inverse">
+			  <thead>
+			    <tr>
+			      <th>#</th>
+			      <th>Photo</th>
+			      <th>Doctor Name</th>
+			      <th>Qualification, Specialist</th>
+			      
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <th scope="row">1</th>
+			      <td>
+			      	<div ng-init="myVar1 = './images/doctor1.jpg'" >
+    				<img ng-src="{{myVar1}}" style="height:100px; width:200px">
+					</div>
+				  </td>
+			      <td><input type="radio" ng-model="doctor1.doctor_name1" value="doctor1">Name: Dr. Kamelia Bonman<br></td>
+			      <td><label for="doctor1_specialist">M.D., Family Medicine</label></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">2</th>
+			       <td>
+			      	<div ng-init="myVar2 = './images/doctor2.jpg'" >
+    				<img ng-src="{{myVar2}}" style="height:90px; width:200px">
+					</div>
+				  </td>
+			      <td><input type="radio" ng-model="doctor2.doctor_name2" value="doctor2">Name: Dr. Andrew Oliver<br></td>
+			      <td><label for="doctor2_specialist">M.D., Family Medicine</label></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">3</th>
+			       <td>
+			      	<div ng-init="myVar3 = './images/doctor3.jpg'" >
+    				<img ng-src="{{myVar3}}" style="height:100px; width:200px">
+					</div>
+				  </td>
+			      <td><input type="radio" ng-model="doctor3.doctor_name3" value="doctor3">Name: Dr.Michelle Ryou<br></td>
+			      <td><label for="doctor3_specialist">M.D., Pediatrics</label></td>
+			    </tr>
+			  </tbody>
+		</table>     
+        
+        <div class="form-actions"> 
+            <a href="#/doctorProfile" class="btn btn-primary" id="process"><i class="fa fa-comment"></i> Process</a> 
+        </div> 
+    </form> 
+</div>
+
+
+</div>
+</body>
+</html>

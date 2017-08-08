@@ -1,0 +1,98 @@
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+optional angular js library:
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
+for routing:
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+
+for animation:
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
+
+
+imp links:
+https://github.com/curran/screencasts/tree/gh-pages/introToAngular
+
+
+
+The ng-app directive defines an AngularJS application.
+
+The ng-model directive binds the value of HTML controls (input, select, textarea) to application data.
+
+The ng-bind directive binds application data to the HTML view.
+
+AngularJS modules define AngularJS applications.
+
+AngularJS controllers control AngularJS applications. 
+-------------------------------------
+AnguralJS modules:
+An AngularJS module defines an application.
+
+The module is a container for the different parts of an application.
+
+The module is a container for the application controllers.
+The ng-model directive can also:
+
+Provide type validation for application data (number, email, required).
+Provide status for application data (invalid, dirty, touched, error).
+Provide CSS classes for HTML elements.
+Bind HTML elements to HTML forms. 
+
+Controllers always belong to a module. 
+
+AngularJS applications usually have a data model. The data model is a collection of data available for the application.
+Data binding in AngularJS is the synchronization between the model and the view.
+
+AngularJS controllers control the data of AngularJS applications.
+The ng-controller directive defines the application controller.
+
+A controller is a JavaScript Object, created by a standard JavaScript object constructor.
+AngularJS will invoke the controller with a $scope object.
+
+In AngularJS, $scope is the application object (the owner of application variables and functions).
+
+The controller creates two properties (variables) in the scope (firstName and lastName).
+----------------------------------------------------------------------------
+Understanding the Scope
+If we consider an AngularJS application to consist of:
+
+View, which is the HTML.
+Model, which is the data available for the current view.
+Controller, which is the JavaScript function that makes/changes/removes/controls the data.
+Then the scope is the Model.
+
+The scope is a JavaScript object with properties and methods, which are available for both the view and the controller.
+----------------------------------------
+AngularJS Filters:
+AngularJS provides filters to transform data:
+
+currency Format a number to a currency format.
+date Format a date to a specified format.
+filter Select a subset of items from an array.
+json Format an object to a JSON string.
+limitTo Limits an array/string, into a specified number of elements/characters.
+lowercase Format a string to lower case.
+number Format a number to a string.
+orderBy Orders an array by an expression.
+uppercase Format a string to upper case.
+
+Adding Filters to Expressions
+Filters can be added to expressions by using the pipe character |, followed by a filter.
+-------------------------------------------------------
+AngularJS Services:
+In AngularJS, a service is a function, or object, that is available for, and limited to, your AngularJS application.
+
+The $location service has methods which return information about the location of the current web page:
+The $location service has methods which return information about the 
+location of the current web page:
+
+The $http Service
+The $http service is one of the most common used services in AngularJS applications. The service makes a request to the server, 
+and lets your application handle the response.
+
+$interval service display the time in every second
+-----------------------------------
+AngularJS Ajax-$http:
+$http is an AngularJS service for reading data from remote servers.
+AngularJS $http service makes a request to the server, and returns a response.
+
+
+ angular-cookies@1.4.2
